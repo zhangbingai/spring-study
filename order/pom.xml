@@ -14,6 +14,11 @@
     <dependencies>
 
         <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>com.bing.springcloud</groupId>
             <artifactId>api-commons</artifactId>
             <version>${project.version}</version>
